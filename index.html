@@ -24,8 +24,8 @@
       </div>
     </header>
 
-    <section>
-      <div class="container">
+    <section class="mb-5 mt-3">
+      <div class="container bg-dark text-white card-body">
         <h2>Header Banner Area</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam hic illum fugiat quasi, recusandae perferendis voluptatibus tempore. Aperiam amet officia explicabo. Maxime, sequi. Fuga tenetur harum enim quod expedita est.</p>
       </div>
@@ -33,48 +33,42 @@
 
     <section>
       <div class="container">
-        To do add the grid system here for col 1. form, col 2 heading and text,
+        <div class="row">
+          <div class=" col-lg-6 col-12 mb-6">
+            <form class="container bg-primary text-white card-body">
+              <h2>Sign In</h2>
+              <div class="form-group">
+                <label for="email">Your Email Address</label>
+                <input class="form-control" type="email" id="email">
+              </div>
+              <div class="form-group">
+                <label for="password">Password</label>
+                <input class="form-control" type="password" id="password">
+              </div>
+              <div class="form-group">
+                <input class="form-check-input" type="checkbox" id="pw-save" name="saved-pw">
+                <label for="pw-save">Save Password</label>
+              </div>
+              <button class="btn btn-light" type="submit">Log In</button>
+            </form>
+          </div>
+          
+            <div class="col-lg-3 col-sm col-md-6">
+              <div class="card-body">
+                  <h3>Heading</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet nisi doloribus reprehenderit magnam nulla? Adipisci eveniet atque sunt fugiat quis nisi perspiciatis asperiores quia? Adipisci dicta quaerat quis impedit asperiores!</p>
+                  <a class="btn btn-primary stretched-link" href="#">View More</a>
+              </div>
+            </div>
 
-        create a form still have to be moved into the grid system
-        <form class="container bg-primary">
-          <h2>Sign In</h2>
-          <div class="form-group">
-            <label for="email">Your Email Address</label>
-            <input class="form-control" type="email" id="email">
-          </div>
-          <div class="form-group">
-            <label for="password"></label>
-            <input class="form-control" type="password" id="password">
-          </div>
-          <div class="form-group">
-            <input class="form-check-input" type="checkbox" id="pw-save" name="saved-pw">
-            <label for="pw-save">Save Password</label>
-          </div>
-          <button class="btn btn-light" type="submit">Log In</button>
-        </form>
-
-        <div class="col-lg mb-3">
-          <div class="card">
-            <div class="card-header">
-              <h3>Heading</h3>
+            <div class="col-lg-3 col-sm col-md-6">
+              <div class="card-body">
+                  <h3>Heading</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet nisi doloribus reprehenderit magnam nulla? Adipisci eveniet atque sunt fugiat quis nisi perspiciatis asperiores quia? Adipisci dicta quaerat quis impedit asperiores!</p>
+                  <a class="btn btn-primary stretched-link" href="#">View More</a>
+              </div>
             </div>
-            <div class="card-body">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet nisi doloribus reprehenderit magnam nulla? Adipisci eveniet atque sunt fugiat quis nisi perspiciatis asperiores quia? Adipisci dicta quaerat quis impedit asperiores!</p>
-              <a href="#">View More</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg mb-3">
-          <div class="card">
-            <div class="card-header">
-              <h3>Heading</h3>
-            </div>
-            <div class="card-body">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet nisi doloribus reprehenderit magnam nulla? Adipisci eveniet atque sunt fugiat quis nisi perspiciatis asperiores quia? Adipisci dicta quaerat quis impedit asperiores!</p>
-              <a href="#">View More</a>
-            </div>
-          </div>
+          
         </div>
       </div>
     </section>
